@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(221, 221, 221);
+  background-size: 100%;
+}
+
+/*Alle Css van mijn buttons*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+button {
+  background-color: #3498DB;
+  border-radius: 10%;
+  text-align: center;
+  opacity: 0.7;
+  transition: 0.1s;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 1;
+  box-shadow: 0 5px #666;
+  transform: translateY(10px);
+  font-size: 30px;
+}
+
+.newpost{
+  top: 40%;
+  left: 25%;
+  padding: 100px 80px;
+}
+
+.feed {
+  background-color:#afffcc;
+  top: 40%;
+  left: 55%;
+  padding: 100px 80px;
+}
+
+.back {
+  background-color:#97f2d0;
+  top: 3%;
+  left: 92%;
+  padding: 10px 20px;
+}
+
+.werkbut {
+  background-color:#97f2d0;
+  top: 65%;
+  left: 10%;
+  padding: 10px 20px;
+}
+
+.foodbut {
+  background-color:#97f2d0;
+  top: 65%;
+  left: 40%;
+  padding: 10px 20px;
+}
+
+.gamingbut {
+  background-color:#97f2d0;
+  top: 65%;
+  left: 80%;
+  padding: 10px 20px;
+}
+
+.sportbut {
+  background-color:#97f2d0;
+  top: 65%;
+  left: 60%;
+  padding: 10px 20px;
+}
+
+.save {
+  background-color:#36ff2f;
+  top: 90%;
+  left: 45%;
+  padding: 10px 10px;
+  box-shadow: none;
+}
+
+.cancel {
+  background-color:#f01111;
+  top: 90%;
+  left: 55%;
+  padding: 10px 10px;
+  box-shadow: none;
+}
+
+/*Alle Css van mijn foto's*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+img{
+  position: absolute;
+  z-index:-1;
+}
+
+.werkpic{
+  left:0%;
+  top:35%;
+}
+
+.etenpic{
+  left: 25%;
+  top:35%;
+}
+
+.sportpic{
+  left:50%;
+  top:35%;
+}
+
+.gamingpic{
+  left:75%;
+  top:35%;
+}
+
+/*Alle Css van mijn paragrafen*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
